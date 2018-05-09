@@ -12,7 +12,7 @@ RUN /tmp/setup.sh
 ## setup application
 ################################################################################
 
-RUN npm install -g s3-website @angular/cli
+RUN npm install -g s3-website @angular/cli create-react-app
 
 COPY . /deploy
 RUN mv /deploy/.aws/credentials.tmpl ~/.aws/credentials.tmpl && rm -rf /deploy/.aws && rm /deploy/Dockerfile
