@@ -1,4 +1,4 @@
-FROM node:6-slim
+FROM node:8.11-slim
 LABEL MAINTAINER Mofesola Babalola <me@mofesola.com>
 
 ################################################################################
